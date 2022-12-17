@@ -43,7 +43,7 @@
 
       $last_id     = $mysqli->insert_id;
       $filename    = $_FILES['picture']['tmp_name'];
-      $destination = $last_id . "_".rand().rand().rand().".jpg";\
+      $destination = $last_id . "_".rand().rand().rand().".jpg";
 
       if($y>0){
         //uploading the images to the products table in database
