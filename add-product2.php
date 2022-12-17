@@ -45,15 +45,12 @@
       $filename    = $_FILES['picture']['tmp_name'];
       $destination = $last_id . "_".rand().rand().rand().".jpg";
 
-      if($y>0){
+    
         //uploading the images to the products table in database
         $sql2 = "update product set picture='$destination' where product_id=$last_id";
 
         //executing the SQL commands
         $z = $mysqli->query($sql2);
-
-      }
-
     }
 
     // echo "record successfully added";
