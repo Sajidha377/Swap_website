@@ -6,7 +6,7 @@
   $DB_NAME = $_ENV["DB_NAME"];
   $DB_PORT = $_ENV["DB_PORT"];
 
-  $mysqli = new mysqli("$DB_HOST","$DB_USER","$DB_PASSWORD","$DB_NAME","$DB_PORT");
+  $mysqli = new mysqli("$DB_HOST","$DB_USER","$DB_NAME","$DB_PORT");
 
   if($mysqli->connect_error){
     echo $mysqli->errorno . "<br />";
