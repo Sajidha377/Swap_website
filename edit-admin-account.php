@@ -30,5 +30,3 @@
     $_SESSION['status'] = "Updating Account Failed!!";
     header("location:admin.php?status=fail");
   }
-
-?>
