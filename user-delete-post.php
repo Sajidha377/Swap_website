@@ -11,6 +11,8 @@ require("code_lib.inc.php");
 
   $id1 = $_GET['b'];
 
+  $old_picture_name = getProductPicture($id1);
+
   //building a dynamic SQL command
   $sql = "DELETE FROM product_admin WHERE product_id='$id1';" and $sql .= "DELETE FROM product WHERE product_id='$id1'";
   
