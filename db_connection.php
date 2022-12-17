@@ -1,11 +1,13 @@
 <?php
   //database connection
-  $server   = $_ENV["server"];
-  $username = $_ENV["username"];
-  $password = $_ENV["password"];
-  $db_name  = $_ENV["db_name"];
+  session_start();
+  $DB_HOST = $_ENV["DB_HOST"];
+  $DB_USER = $_ENV["DB_USER"];
+  $DB_PASSWORD = $_ENV["DB_PASSWORD"];
+  $DB_NAME = $_ENV["DB_NAME"];
+  $DB_PORT = $_ENV["DB_PORT"];
 
-  $mysqli = new mysqli($server,$username,$password,$db_name);
+  $mysqli = new mysqli("$DB_HOST","$DB_USER","$DB_PASSWORD","$DB_NAME","$DB_PORT");
 
   if($mysqli->connect_error){
     echo $mysqli->errorno . "<br />";
