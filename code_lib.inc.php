@@ -59,6 +59,3 @@ function resizeThumbPicture($path, $image_name)	{
    $row = mysqli_fetch_assoc($rs);
    return $row['picture'];
  }
-
-
- ?>
