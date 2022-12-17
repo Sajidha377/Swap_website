@@ -10,7 +10,7 @@
   $access_code = $_REQUEST['access_code'];
 
   //lets build the dynamic sql command
-  $sql = "SELECT * from USER where user_id='$user_id'";
+  $sql = "SELECT * from user where user_id='$user_id'";
 
   //execute the sql command
   $rs = $mysqli->query($sql);
