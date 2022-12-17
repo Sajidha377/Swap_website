@@ -43,9 +43,7 @@
 
       $last_id     = $mysqli->insert_id;
       $filename    = $_FILES['picture']['tmp_name'];
-      $destination = $last_id . "_".rand().rand().rand().".jpg";
-
-      $y = move_uploaded_file($filename,"images/large/".$destination);
+      $destination = $last_id . "_".rand().rand().rand().".jpg";\
 
       if($y>0){
         //uploading the images to the products table in database
@@ -53,12 +51,6 @@
 
         //executing the SQL commands
         $z = $mysqli->query($sql2);
-
-        //copying the images to thumb folder and resizing it
-        copy("images/large/".$destination);
-
-        //resizing the images
-        resizeThumbPicture("images/thumb/",$destination);
 
       }
 
