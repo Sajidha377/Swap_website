@@ -14,6 +14,4 @@
     die("connection failed");
   }
    //echo "connection successful";
-
- ?>
-
+?>
