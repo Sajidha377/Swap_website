@@ -39,5 +39,3 @@ require("code_lib.inc.php");$admin_id = $_SESSION['admin_id'];
     $_SESSION['status'] = "Confirming Post failed!!";
     header("location:confirm-post.php?status=pass");
   }
-
- ?>
