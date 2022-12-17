@@ -76,5 +76,3 @@
     header("location:user-account.php?status=pass");
 
   }
-
- ?>
