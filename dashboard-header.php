@@ -5,7 +5,7 @@
 <div class="row 1 admin">
   <nav class="navbar bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo"></a>
+      <a class="navbar-brand" href="#"><img src="images/Logo.png" alt="Logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
