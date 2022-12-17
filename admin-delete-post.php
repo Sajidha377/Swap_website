@@ -36,5 +36,3 @@ require("code_lib.inc.php");
     $_SESSION['status'] = "Failed to delete product";
     header("location:confirm-post.php?status=fail");
   }
-
- ?>
