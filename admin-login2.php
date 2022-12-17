@@ -35,5 +35,3 @@
     $_SESSION['status'] = "Authorization Failed!!";
     header("location:admin-login.php?status=fail");
   }
-
- ?>
