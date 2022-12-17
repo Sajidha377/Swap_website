@@ -45,5 +45,3 @@ else{
   //echo "adding record failed";
   header("location:sign-up.php?status=fail");
 }
-
-?>
