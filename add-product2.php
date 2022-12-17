@@ -73,5 +73,3 @@
     $_SESSION['status'] = "Failed to Post!!";
     header("location:add-product1.php?status=fail");
   }
-
- ?>
