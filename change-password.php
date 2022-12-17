@@ -29,7 +29,3 @@ else{
   $_SESSION['status'] = "Changing Password Failed!!";
   header("location:user-account.php?status=fail");
 }
-
-
-
- ?>
